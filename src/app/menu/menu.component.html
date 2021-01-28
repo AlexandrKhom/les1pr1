@@ -1,0 +1,14 @@
+<div>
+  <a href="">about</a>
+  <a href="">products</a>
+  <a href="">contacts</a>
+</div>
+
+<div>
+  <a href="">{{items[0]}}</a>
+  <a href="">{{items[1]}}</a>
+  <a href="">{{items[2]}}</a>
+</div>
+<div>
+  <a *ngFor="let item of items" href="">{{item}}</a>
+</div>
